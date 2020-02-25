@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000;
 const router = require('./src/routes/crmRoutes');
 
 
-
+//Middleware 
 app.use('/crmRoutes', router);     
 
 
